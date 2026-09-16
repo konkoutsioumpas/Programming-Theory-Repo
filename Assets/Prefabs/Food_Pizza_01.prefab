@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7701582507862930042}
   - component: {fileID: 7981651286016518291}
   - component: {fileID: 4515216560600038343}
-  - component: {fileID: 1222922335132352379}
+  - component: {fileID: 1650923939425157396}
   - component: {fileID: 8178755648312312997}
   - component: {fileID: 7410968667411735390}
   m_Layer: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 40
---- !u!114 &1222922335132352379
+--- !u!114 &1650923939425157396
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8917613713626396055}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9dcac3a75e6628d4d819afce36623236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
 --- !u!65 &8178755648312312997

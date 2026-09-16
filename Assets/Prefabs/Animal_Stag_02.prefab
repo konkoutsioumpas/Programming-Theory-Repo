@@ -747,8 +747,8 @@ GameObject:
   - component: {fileID: 4930630043355686433}
   - component: {fileID: 2471156422517764993}
   - component: {fileID: 4626905292756652880}
-  - component: {fileID: 5593277902516482065}
-  - component: {fileID: -8535406504445815200}
+  - component: {fileID: 601390690989942458}
+  - component: {fileID: 7536656004417984982}
   - component: {fileID: 4766532792477906600}
   m_Layer: 0
   m_Name: Animal_Stag_02
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 10
---- !u!114 &5593277902516482065
+--- !u!114 &601390690989942458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -827,10 +827,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6826396780640435601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9dcac3a75e6628d4d819afce36623236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
---- !u!114 &-8535406504445815200
+--- !u!114 &7536656004417984982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,9 +839,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6826396780640435601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3fdafd00a7c5d3249bd29825f91a914b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
+  foodNeeded: 2
+  hungerSlider: {fileID: 1185102653226656309}
 --- !u!65 &4766532792477906600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1148,6 +1150,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dba422c5706373747b392e3335d22e84, type: 3}
+--- !u!114 &1185102653226656309 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3418556119092841656, guid: dba422c5706373747b392e3335d22e84, type: 3}
+  m_PrefabInstance: {fileID: 4540598434577968781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!224 &2361639460916593084 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2289315888551980849, guid: dba422c5706373747b392e3335d22e84, type: 3}
