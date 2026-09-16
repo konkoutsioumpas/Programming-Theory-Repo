@@ -286,10 +286,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7778007676103654509}
   - component: {fileID: 8030820737422079765}
-  - component: {fileID: 4555016557611659507}
-  - component: {fileID: 8322155183623567861}
-  - component: {fileID: -4711495737757455850}
   - component: {fileID: 374665856016602992}
+  - component: {fileID: 8322155183623567861}
+  - component: {fileID: 7653853409763156545}
   m_Layer: 0
   m_Name: Animal_Moose_02
   m_TagString: Untagged
@@ -345,45 +344,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4555016557611659507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2961837994514009134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bc8d8c959d58474fa7b17051c68051f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 15
---- !u!114 &8322155183623567861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2961837994514009134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dcac3a75e6628d4d819afce36623236, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
---- !u!114 &-4711495737757455850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2961837994514009134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fdafd00a7c5d3249bd29825f91a914b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
-  foodNeeded: 3
-  hungerSlider: {fileID: 1720518932492857406}
 --- !u!65 &374665856016602992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -405,6 +365,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.21420759, y: 0.5182285, z: 0.5080564}
   m_Center: {x: -0.003565008, y: 0.21378998, z: 0.04844913}
+--- !u!114 &8322155183623567861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961837994514009134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcac3a75e6628d4d819afce36623236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &7653853409763156545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961837994514009134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524bf8de7706bd74e9e0755872688987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Moose
+  speed: 15
+  foodNeeded: 3
+  hungerSlider: {fileID: 1720518932492857406}
 --- !u!1 &3514045627856011722
 GameObject:
   m_ObjectHideFlags: 0
